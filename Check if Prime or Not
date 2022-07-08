@@ -1,0 +1,16 @@
+number = int(input("Enter a number:"))
+flag = True
+# 1 is not the Prime Num
+if number>1:
+    for i in range(2, number):
+        if (number % i)==0:
+            # if this factor (ចែកដាច់សំណល់០) is false, it is not the prim number
+            flage = False
+            # Break out from the loop
+            break
+    
+# Check if the flag is True
+if flag:
+    print(number, "is not a prime Number")
+else:
+    print(number, "is a prime number")
