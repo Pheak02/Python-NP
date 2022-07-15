@@ -7,7 +7,7 @@
 #     i //=10
 # print("Reversed Num:" + str(reversed_num))
 
-
+#_____________
 # num = int(input("Enter an integer num: "))
 # temp= num #temp/aux
 
@@ -21,18 +21,18 @@
 #     print("False")
 
 
-
+#_______________Search whether it is binary num or not_____________
 num = int(input("Enter an integer num: "))
 temp= num #temp/aux
 reverse =0
 while num!=0: 
     remainder=num%10
-    reverse = reverse*10 + remainder
+    #reverse = reverse*10 + remainder
     #num= num//10
     #if (reverse == temp and remainder==0,1):
     if (remainder!=0 and remainder!=1):
         print("False")
-        break;
+        break
     num= num//10
     if(num==0):
         print("True")
