@@ -1,10 +1,27 @@
-i =12345
-reversed_num=0
-while i!=0:
-    digit = i % 10
-    reversed_num = reversed_num*10 +digit
-    i //=10
-print("Reversed Num:" + str(reversed_num))
+# number = int(input("Enter an integer num: "))
+# i =12345
+# reversed_num=0
+# while i!=0:
+#     digit = i % 10
+#     reversed_num = reversed_num*10 +digit
+#     i //=10
+# print("Reversed Num:" + str(reversed_num))
+
+
+num = int(input("Enter an integer num: "))
+temp= num #temp/aux
+
+while num!=0:
+    remainder=number%10
+    reverse = reverse*10 +remainder
+    num= num//10
+if (reverse==temp):
+    print("True")
+else:
+    print("False")
+
+
+
 
 
 
