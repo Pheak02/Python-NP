@@ -8,19 +8,31 @@
 # print("Reversed Num:" + str(reversed_num))
 
 
+# num = int(input("Enter an integer num: "))
+# temp= num #temp/aux
+
+# while num!=0:
+#     remainder=num%10
+#     reverse = reverse*10 +remainder
+#     num= num//10
+# if (reverse==temp):
+#     print("True")
+# else:
+#     print("False")
+
+
+
 num = int(input("Enter an integer num: "))
 temp= num #temp/aux
 
-while num!=0:
-    remainder=number%10
-    reverse = reverse*10 +remainder
+while num!=0: 
+    remainder=num%10
+    reverse = reverse*10 + remainder
     num= num//10
-if (reverse==temp):
-    print("True")
-else:
-    print("False")
-
-
+    if (remainder==0,1 and reverse == temp):
+        print("True")
+    else:
+        print("False")
 
 
 
