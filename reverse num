@@ -28,10 +28,13 @@ reverse =0
 while num!=0: 
     remainder=num%10
     reverse = reverse*10 + remainder
-    num= num//10
-    if (reverse == temp and remainder==0,1):
+    #num= num//10
+    #if (reverse == temp and remainder==0,1):
+    if (remainder!=0 and remainder!=1):
         print("True")
-else:
+        break;
+    num= num//10
+    if(num==0):
         print("False")
 
 
