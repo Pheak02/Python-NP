@@ -1,9 +1,10 @@
 # 9. Given an array arr[] of n elements, write a Python function to search a given element x in arr[].
-list[13] = [ 12,13,34,5,1,2,3,-6,7,90,67,102]
+# add 
+list[13] = [ 1,2,3,4,5,6,7,8,9,10,11,12,13]
 keysearch=13
-i=0
-for i in list(i>13):
-    if i==list:
+# i=0
+for i in list():
+    if i==keysearch:
         print("They Keysearch found",i)
     else:
         print("They Keysearch can't be found!")
