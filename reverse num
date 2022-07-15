@@ -29,7 +29,7 @@ while num!=0:
     remainder=num%10
     reverse = reverse*10 + remainder
     num= num//10
-    if (remainder==0,1 and reverse == temp):
+    if (reverse == temp and remainder==0,1):
         print("True")
     else:
         print("False")
