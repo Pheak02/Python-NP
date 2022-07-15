@@ -1,0 +1,11 @@
+i =12345
+reversed_num=0
+while i!=0:
+    digit = i % 10
+    reversed_num = reversed_num*10 +digit
+    i //=10
+print("Reversed Num:" + str(reversed_num))
+
+
+
+
